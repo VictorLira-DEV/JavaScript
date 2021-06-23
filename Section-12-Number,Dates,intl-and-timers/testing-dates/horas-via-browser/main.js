@@ -1,0 +1,1 @@
+const locale = navigator.language;
