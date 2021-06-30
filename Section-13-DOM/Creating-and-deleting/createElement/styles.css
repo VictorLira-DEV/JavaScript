@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    background: purple;
+    transition: .4s ease-in-out;
+}
+
+.font{
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.button_wrapper{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(252, 150, 167);
+}
+
+.div_wrapper{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(150, 240, 252);
+    display: flex;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    background: black;
+    color: white;
+}
