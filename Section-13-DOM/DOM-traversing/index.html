@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom traversing</title>
+    <style>
+        .boxes{
+            padding: 10px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .box{
+            width: 50px;
+            height: 50px;
+            border: 1px solid red;
+        }
+
+        .wrapper{
+            padding: 20px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="title" id="fist_one">Title</h1> <!--H1-->
+            <p>first element</p>
+            <strong>Name: </strong> <span>Victor</span> 
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <p id="last_one">last element</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
