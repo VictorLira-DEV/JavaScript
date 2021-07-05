@@ -5,7 +5,7 @@ pois eles estão no caminho, pois o evento irá até o "a" e depois volta até o
 
 document.querySelector('.container').addEventListener('click', function (e) {
     console.log('inside container')
-    
+    console.log(e.currentTarget === this)
 });
 
 document.querySelector('.box_wrapper').addEventListener('click', function (e) {
@@ -15,5 +15,7 @@ document.querySelector('.box_wrapper').addEventListener('click', function (e) {
 
 document.querySelector('a').addEventListener('click', function (e) {
     this.style.backgroundColor = 'red'
-    console.log('a')
+    console.log('a');
+
+    e.stopPropagation(); // is not a good idea to use it 
 });
