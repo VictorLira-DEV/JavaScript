@@ -1,0 +1,38 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 1000PX;
+}
+
+div.box{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	/*
+	-webkit-transition-property:width height;
+	transition-property: width height;
+	-webkit-transition-property:3s;
+	transition-duration: 3s;
+	transition-delay: 1s;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+	*/
+	-webkit-transition: 1s width, 1s height;
+	transition: 3s width, 3s height;
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+/* div.box:hover{
+	width: 600px;
+	height: 500px;
+} */
+

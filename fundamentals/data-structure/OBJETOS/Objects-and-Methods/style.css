@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #ccc;
+    
+}
+
+.container{
+    width: 50%;
+    height: 500px;
+    padding: 2%;
+    background-color: azure;
+}
