@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    background: whitesmoke;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+section{
+    height: 80vh;
+}
+
+#sobre{
+    background: rgb(238, 166, 178);
+}
+
+#qualificacoes{
+    background: rgb(141, 73, 141);
+}
+
+#requisitos{
+    background: rgb(125, 230, 125);
+}
+
+#aplicacoes{
+    background: rgb(235, 235, 119);
+}

@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.menu {
+    padding: 1rem 6rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    background: white;
+    z-index: 100;
+}
+
+nav.sticky {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+nav img {
+    width: 150px;
+    height: 45px;
+    transition: all 0.3s ease 0s;
+}
+
+nav button {
+    cursor: pointer;
+    background: #5ec576;
+    border: 1px solid #51af67;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+nav button:hover {
+    background: rgb(104, 202, 127);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+/*sections*/
+
+section {
+    padding: 70px;
+    background: rgb(219, 219, 219);
+}
+
+section h1{
+    margin-bottom: 10px;
+}
+
+section p{
+    line-height: 20px;
+}
+.images {
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.images.landscape--1 {
+    background-image: url("./images/1.jpg");
+}
+
+.images.landscape--2 {
+    background-image: url("./images/2.jpg");
+}
+
+.images.landscape--3 {
+    background-image: url("./images/3.jpg");
+}
+
+.images.landscape--4 {
+    background-image: url("./images/4.jpg");
+}
+
+.images.landscape--5 {
+    background-image: url("./images/5.jpg");
+}
