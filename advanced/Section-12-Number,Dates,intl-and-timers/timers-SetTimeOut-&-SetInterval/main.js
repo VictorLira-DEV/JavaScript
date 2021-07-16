@@ -1,11 +1,14 @@
-//o tempo setado não para execução dos códigos adiante
+const ingridients = ["olives", "spinach"];
 
-const ingredients = ['olives', 'spinach']
 const pizzaTimer = setTimeout(
-    (ing1, ing2) => console.log(`here is your pizza with ${ing1} and ${ing2}`),
+    (eng1, eng2) => {
+        console.log(`Here is your pizza with ${eng1} and ${eng2}`);
+        //depois do tempo 3000 podemos adicionar os argumentos
+    },
     3000,
-    ...ingredients
-);
-console.log("waiting");
+    ...ingridients
+); //3 mil milisegundos
 
-if (ingredients.includes('spinach')) clearTimeout(pizzaTimer)
+console.log("waiting");
+//clearTimeOut: basicamente cancela a callbackfunction
+if (ingridients.includes("spinach")) clearTimeout(pizzaTimer);
