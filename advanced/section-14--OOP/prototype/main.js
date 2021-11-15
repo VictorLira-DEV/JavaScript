@@ -45,3 +45,13 @@ console.log(jonas, victor);
 //------------------ || -------------------
 console.log(jonas.hasOwnProperty('firstName'));
 console.log(jonas.hasOwnProperty('species'));
+console.log(jonas.__proto__)
+
+console.log(jonas.__proto__.__proto__)//object.prototytpe is the top of prototytpe chain
+console.log(jonas.__proto__.__proto__.__proto__)//null
+
+//prototype of arrays
+const arr = [1,2,3,4];
+/* abaixo pode ver o protótipo de um array, e claro que um array não contém todos esse métodos
+mas é claro que ele pode hendar através da herânça de protótipo */
+console.log(arr.__proto__);
