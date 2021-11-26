@@ -23,7 +23,7 @@ const createImage = imgPath => {
     });
 };
 
-let currentImg;
+// let currentImg;
 // const loadNPause = async () => {
 //     try {
 //         currentImg = await createImage('./img/img-1.jpg');
