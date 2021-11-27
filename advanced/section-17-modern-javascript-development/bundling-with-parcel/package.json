@@ -1,0 +1,12 @@
+{
+  "name": "bundling-with-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}

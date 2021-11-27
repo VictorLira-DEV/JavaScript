@@ -10,4 +10,5 @@ touch fileName <-- create a new file
 touch fileName fileName fileName <-- create a multiple files at once
 rm filename <-- delete file
 mv .\index.html ../ <-- move to the parent folder
-rmdir folder'n name <-- delete folder
+rmdir folder's name <-- delete empty folder
+rm -R folder's name <-- delete folder with files

@@ -10,3 +10,21 @@ code fileName <-- creates a new file
 del filename <-- delete file
 mv .\index.html ../ <-- move to the parent folder
 rmdir folder'n name <-- delete folder
+
+--------------//--------------
+//YARN 
+yarn -v
+npm init 
+npm init -y
+yarn add dependency -D
+yarn add dependency
+yarn remove dependency
+
+//NPM
+npm -v
+npm init 
+npm init -y
+npm install dependency
+npm i dependency
+npm remove dependency
+npm i dependency --save-dev
