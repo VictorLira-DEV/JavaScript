@@ -8,6 +8,7 @@ const wait = function (seconds) {
 };
 
 const createImage = imgPath => {
+    /* essa função retorna uma promessa para não travar o block de execução do site */
     return new Promise(function (resolve, reject) {
         const img = document.createElement('img');
         img.setAttribute('src', imgPath);
@@ -23,38 +24,41 @@ const createImage = imgPath => {
     });
 };
 
-// let currentImg;
 // const loadNPause = async () => {
 //     try {
-//         currentImg = await createImage('./img/img-1.jpg');
+//         let img = await createImage('./img/img-1.jpg');
 //         await wait(2);
-//         currentImg.style.display = 'none';
+//         img.style.display = 'none';
 
-//         currentImg = await createImage('./img/img-2.jpg');
+//         img = await createImage('./img/img-2.jpg');
 //         await wait(2);
-//         currentImg.style.display = 'none';
+//         img.style.display = 'none';
 
-//         currentImg = await createImage('./img/img-3.jpg');
-//         await wait(2)
-//         currentImg.style.display = 'none'
-
+//         img = await createImage('./img/img-3.jpg');
+//         await wait(2);
+//         img.style.display = 'none';
 //     } catch (error) {
-//         console.log(error);
+//         console.error(error);
 //     }
 // };
 
 // loadNPause();
 
-const loadAll = async (imgArr) => {
-    const imgs = await imgArr.map((img) => {
-        return createImage(img);
-    })
+const loadAll = async imgArr => {
+    try {
+        const imgs = imgArr.map(async img => await createImage(img));
+        console.log(imgs)
+        const images = await Promise.all(imgs);
 
-    const images = await Promise.all(imgs);
+        images.forEach(img => {
+            img.classList.add('parallel');
+        });
 
-    images.forEach(img => {
-        img.classList.add('parallel')
-    })
-}
+        console.log('who was faster');
+    } catch (err) {
+        console.error(err);
+    }
+};
 
-loadAll(['./img/img-1.jpg', './img/img-2.jpg', './img/img-3.jpg'])
+loadAll(['./img/img-1.jpg', './img/img-2.jpg', './img/img-3.jpg']);
+console.log('who was faster');

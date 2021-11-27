@@ -26,7 +26,7 @@ const getCountries = async function (c1, c2, c3) {
         // );
 
         //console.log([data1.capital, data2.capital, data3.capital]);
-
+        /*Promise.all takes an array of promises as arguments */
         /* one rejected promise is enough is for the entire thing to reject as well */
         /* always use this when one promisse don't depends other promise */
         const data = await Promise.all([

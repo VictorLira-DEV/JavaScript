@@ -1,0 +1,12 @@
+dir <-- show the content of the current folder
+cd  <-- stands for change directory
+cd .. <-- go up
+cd ../.. <-- move up 2 levels
+cd (start writing the press tab)
+cd folder's name <-- enter folder
+clear
+mkdir <-- create a new folder
+code fileName <-- creates a new file
+del filename <-- delete file
+mv .\index.html ../ <-- move to the parent folder
+rmdir folder'n name <-- delete folder
