@@ -1,0 +1,20 @@
+//IMPERATIVE]
+
+//programmer explains "how to do things"
+//we explain in computer every single step it has to follow to achieve a result
+//we need to give a step by step recepi of cake
+
+//DECLARATIVE
+//programmer tells what to do
+//we simply describe the way the computer should  achieve the result
+//the HOW (step-by-step result) gets abstract away
+//description of a cake
+
+//functional programming
+declarative programming paradign
+based on the idea of writing software by combinig many  pure functions, avoid side effects and mutating data
+side effect: modification (mutation) of any data outside of the function (mutating external variables, logging to 
+console, writing to DOM, etc)
+
+//immutabity
+state() data is nerver modified! instead, state is copied and copy is mutated and returned

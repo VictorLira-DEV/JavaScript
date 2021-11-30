@@ -28,3 +28,8 @@ npm install dependency
 npm i dependency
 npm remove dependency
 npm i dependency --save-dev
+
+//dependecias de desenvolvimento
+basicamente é uma ferramenta que usamos para desenvolver o projeto
+mas não precisamos dele dentro do projeto
+//não precisamos dele para rodar o projeto final
