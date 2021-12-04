@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_wrapper{
+    padding: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+
+.active{
+    transform: translateY(-50%);
+}
+
+button.yellow{
+    background: rgb(241, 241, 86);
+    border: 1px solid rgb(228, 228, 55);
+}
+
+button.yellow:hover{
+    background: rgb(255, 255, 60);
+}
+
+button.green{
+    background: rgb(86, 241, 151);
+    border: 1px solid rgb(69, 219, 132);
+}
+
+button.green:hover{
+    background: rgb(58, 212, 122);
+}
+
+button.red{
+    background: rgb(240, 100, 100);
+    border: 1px solid rgb(221, 83, 83);
+}
+
+button.red:hover{
+    background: rgb(218, 82, 82);
+}
+
+.operation_active{
+    display: block;
+}
+
+.operation_hidden{
+    display: none;
+}
+
+.operations_btn{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+
+
+.operations-content--1{
+    background: rgb(252, 252, 159);
+}
+
+.operations-content--2{
+    background: rgb(159, 252, 171);
+}
+
+.operations-content--3{
+    background: rgb(252, 159, 159);
+}
+
+.operations-content h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.operations-content p{
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}
