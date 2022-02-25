@@ -1,4 +1,4 @@
-const airline = 'Tap Air Portugal';
+const airline = "Tap Air Portugal";
 
-console.log(airline.lastIndexOf('r'));
-console.log(airline.lastIndexOf('Portugal'));
+console.log(airline.lastIndexOf("r"));
+console.log(airline.lastIndexOf("Portugal"));

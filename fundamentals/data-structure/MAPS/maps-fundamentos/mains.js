@@ -6,7 +6,7 @@ rest.set('name', 'Classico Italiano',);
 rest.set(1, 'Firenze, Italy');
 
 
-console.log(rest.set(2, 'Lisbon, Portugal'));
+// console.log(rest.set(2, 'Lisbon, Portugal'));
 
 rest.set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
     .set('open', 11)
@@ -16,13 +16,15 @@ rest.set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
     .set(false, 'We are closed')
 
 
-// console.log(rest.get('name'))
-// console.log(rest.get(true))
-
+console.log(rest.get('name'))
+console.log(rest.get(true))
+for(let [a , b] of rest){
+    console.log(b)
+}
 const time = 8;
 // console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
-
 // console.log(rest.has('categories'));
+
 rest.delete(2)
 
 

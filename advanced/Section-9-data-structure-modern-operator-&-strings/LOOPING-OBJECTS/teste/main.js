@@ -1,32 +1,31 @@
 'use strict'
 //objects are not literables
-// let currentYear = new Date().getFullYear();
+let currentYear = new Date().getFullYear();
 
-// const openingHours = {
-//     thus: {
-//         open: 0,
-//         close: 12
-//     },
-//     fri: {
-//         open: 0,
-//         close: 10
-//     },
-//     sat: {
-//         open: 0,
-//         close: 9
-//     },
-//     // currentYear: 2021,
-//     // pessoas: {
-//     //     nome: 'Victor',
-//     //     nasc: 1997
-//     // },
-//     // writeString: function () {
-//     //     console.log(`my name is ${this.pessoas.nome}, I'm ${currentYear - this.pessoas.nasc} years Old`)
-//     // }
-// }
+const openingHours = {
+    thus: {
+        open: 0,
+        close: 12
+    },
+    fri: {
+        open: 0,
+        close: 10
+    },
+    sat: {
+        open: 0,
+        close: 9
+    },
+    // currentYear: 2021,
+    // pessoas: {
+    //     nome: 'Victor',
+    //     nasc: 1997
+    // },
+    // writeString: function () {
+    //     console.log(`my name is ${this.pessoas.nome}, I'm ${currentYear - this.pessoas.nasc} years Old`)
+    // }
+}
 
 // const properties = Object.keys(openingHours);
-
 // const values = Object.values(openingHours);
 
 // for (const {open, close} of values ){

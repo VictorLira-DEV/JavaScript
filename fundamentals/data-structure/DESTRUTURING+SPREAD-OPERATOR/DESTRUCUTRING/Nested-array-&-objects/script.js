@@ -46,7 +46,7 @@ console.log(i,j,k)
 //-----------------------------------------------------------------------------------------------------------
 
 //nested objects
-const { fri: {open, close} } = openingHours;
+const { fri: {open, close} } = restaurant.openingHours;
 console.log(open, close)
 
 

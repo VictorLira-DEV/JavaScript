@@ -42,4 +42,3 @@ const weekday = {
 const weekMap = new Map(Object.entries(weekday))
 
 const weekArray = [...weekMap]
-console.log(weekArray.)

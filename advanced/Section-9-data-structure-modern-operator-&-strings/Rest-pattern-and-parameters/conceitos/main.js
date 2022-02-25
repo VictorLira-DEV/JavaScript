@@ -13,7 +13,7 @@ const restaurant = {
         console.log(`here is your delicious  pasta with ${ing1}
        ${ing2} and ${ing3}`)
     },
-    orderPizza: function(mainIngridient, ...otherIngridients) {
+    orderPizza: function (mainIngridient, ...otherIngridients) {
         console.log(mainIngridient);
         console.log(otherIngridients);
     },
@@ -29,7 +29,7 @@ const restaurant = {
         sat: {
             open: 0, //open 24 hours
             close: 24
-        }, 
+        },
     }
 }
 
@@ -40,7 +40,7 @@ restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
 
 // o rest element precisa ser o ultimo element
 
-const [pizza, , risoto, ,...otherFood/*(rest)*/] = [...restaurant.mainMenu, ...restaurant.startMenu]
+const [pizza, , risoto, , ...otherFood/*(rest)*/] = [...restaurant.mainMenu, ...restaurant.startMenu]
 
 console.log(pizza, risoto, otherFood)
 //-------------------------------------------

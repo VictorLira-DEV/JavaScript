@@ -1,7 +1,7 @@
 //boolen 
 const plane = 'A320neo';
-console.log(plane.includes('A320'));
-console.log(plane.includes('Boing'));
+// console.log(plane.includes('A320'));
+// console.log(plane.includes('Boing'));
 
 //-----------------------------
 

@@ -20,8 +20,8 @@
 // const mouseOut = document.querySelector('.box')
 
 // mouseOut.addEventListener('mouseout', function () {
-//     mouseOut.style.width = '100px';
-//     mouseOut.style.height = '100px';
+//     mouseOut.style.width = '500px';
+//     mouseOut.style.height = '500px';
 // })
 
 //------------------------------------------
@@ -36,9 +36,9 @@
 
 //Evento click duplo mouseout
 
-const mouseOver = document.querySelector('.box')
+// const mouseOver = document.querySelector('.box')
 
-mouseOver.addEventListener('dblclick', function () {
-    mouseOver.style.width = '600px';
-    mouseOver.style.height = '500px';
-})
+// mouseOver.addEventListener('dblclick', function () {
+//     mouseOver.style.width = '600px';
+//     mouseOver.style.height = '500px';
+// })

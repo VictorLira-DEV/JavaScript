@@ -38,7 +38,7 @@ const restaurant = {
 restaurant.orderPizza('mushrooms', 'onion', 'olives', 'spinach');
 
 
-// o rest element precisa ser o ultimo element
+// o rest elemento precisa ser o ultimo elemento
 
 const [pizza, , risoto, ,...otherFood/*(rest)*/] = [...restaurant.mainMenu, ...restaurant.startMenu]
 
@@ -49,4 +49,4 @@ console.log(pizza, risoto, otherFood)
 const arr = [1, 2, ...[3, 4]];
 //REST is on the left side of = 
 const [a, b, ...others] = [1, 2, 3, 4, 5];
-// console.log(a, b, others);
+console.log(a, b, others);

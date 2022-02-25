@@ -11,7 +11,7 @@ const restaurant = {
         {name: 'suco', sabor: 'goiaba', preco: 10}
     ],
     perdido: function ({nome, pizzaIndex, bebidaIndex, endereco}) {
-        console.log(`pedido para o senhor ${nome} de ${this.pizzas[pizzaIndex].name} sabor ${this.pizzas[pizzaIndex].sabor} valor ${this.pizzas[pizzaIndex].preco} mais ${this.bebidas[bebidaIndex].name} ${this.bebidas[bebidaIndex].sabor} valor ${this.bebidas[bebidaIndex].preco} total a paragar ${this.bebidas[bebidaIndex].preco + this.pizzas[pizzaIndex].preco}`)
+        console.log(`pedido para o senhor ${nome} de ${this.pizzas[pizzaIndex].name} sabor ${this.pizzas[pizzaIndex].sabor} valor ${this.pizzas[pizzaIndex].preco} mais ${this.bebidas[bebidaIndex].name} ${this.bebidas[bebidaIndex].sabor} valor ${this.bebidas[bebidaIndex].preco} total a pagar ${(this.bebidas[bebidaIndex].preco + this.pizzas[pizzaIndex].preco).toFixed(2) } `)
     }
     
 }

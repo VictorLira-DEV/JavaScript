@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 // declarações de funções são hoisted, portando é possivel acessar o valor antes de serem declaradas
 
@@ -11,7 +11,7 @@
 /*function expressions e arrow funtions se comportam como suas respectivas variaveis
  não temos acesso ao valor porém o javascrip escaneia o código e sabe que o valor irá ser atribuido e  retorna o valor como não iniciado*/
 
-// multiply(a, b)  
+// multiply(a, b)
 
 // const multiply = () => {
 //     console.log(a,b)
@@ -32,9 +32,9 @@
 // o identificador 'let' é === unitialized
 
 // console.log(casa)
-console.log(cor)
+console.log(cor);
 // console.log(nome)
 
-const casa = 'amarela'
-var cor = 'branca'
-let nome = 'linda'
+const casa = "amarela";
+var cor = "branca";
+let nome = "linda";

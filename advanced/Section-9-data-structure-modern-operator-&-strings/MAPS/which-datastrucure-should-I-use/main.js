@@ -21,7 +21,7 @@
 //SETS - 
     //USE WHEN YOU NEED TO WORK WITH UNIQUE VALUES
     //USE WHEN HIGHT-PERFORMANCE IS REALLY IMPORTANT
-    //USE TO REMORE DUPLICATES FROM ARRAYS
+    //USE TO REMOVE DUPLICATES FROM ARRAYS
 
 //---------------------------------------------------------------------------
 

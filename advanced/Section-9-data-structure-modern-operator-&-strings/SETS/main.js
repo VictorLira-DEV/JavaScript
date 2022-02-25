@@ -1,24 +1,23 @@
-'use strict'
+"use strict";
 
 //EVERYTHING HAS TO BE UNIQUE IN THE SET
 //ORDER DOES NOT MATTER
 //there is not INDEX IN SETS
 
-
 const orderSet = new Set([
-    'Pasta',
-    'Pizza',
-    'Pizza',
-    'Risotto',
-    'Pasta',
-    'Pizza', 
+  "Pasta",
+  "Pizza",
+  "Pizza",
+  "Risotto",
+  "Pasta",
+  "Pizza",
 ]);
 
-console.log(orderSet)
-console.log(new Set('Jonas'));
+console.log(orderSet);
+console.log(new Set("Jonas"));
 
-for (let order of orderSet){
-    console.log(order)
+for (let order of orderSet) {
+  console.log(order);
 }
 // console.log(orderSet.size);
 // console.log(orderSet.has('Pizza'));
@@ -37,7 +36,7 @@ for (let order of orderSet){
 // const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
 // const staffUnique = [...new Set(staff)]
 
-// console.log(staffUnique) 
+// console.log(staffUnique)
 
 // //------------------------
 // console.log(new Set('Victor').size);

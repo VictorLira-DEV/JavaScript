@@ -19,6 +19,7 @@ const openingHours = {
 //PROPERTY NAMES
 /*Object.keys retorna um ARRAY com exatamente o nome das propriedades do objeto */
 // const properties = Object.keys(openingHours);
+
 // let openStr = `we are open on ${ properties.length } days `
 // // console.log(properties)
 
@@ -31,8 +32,8 @@ const openingHours = {
 
 //PROPERTY VALUES
 //retorna um array com os valores no objeto
-// const values = Object.values(openingHours)
-// console.log(values)
+const values = Object.values(openingHours)
+console.log(values)
 
 // Entire object
 // entries são basicamente nomes e valores juntos    
@@ -40,9 +41,9 @@ const openingHours = {
 // podemos assim desestruturar para acesar as propriedades individualmente
 // como no exemplo abaixo
 
-// const entries = Object.entries(openingHours);
-//     console.log(entries);
+const entries = Object.entries(openingHours);
+    console.log(entries);
 
-// for (const [key, {open, close}] of entries){
-//     console.log(`On ${key} we open at ${open} and close at ${close}`);
-// };  
+for (const [key, {open, close}] of entries){
+    console.log(`On ${key} we open at ${open} and close at ${close}`);
+};  

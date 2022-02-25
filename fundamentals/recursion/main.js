@@ -3,7 +3,7 @@ function printChildrenRecursive(t) {
     return;
   }
   t.children.forEach((child) => {
-    console.log(child.name);
+    console.log(child);
     printChildrenRecursive(child);
   });
 }
@@ -37,16 +37,15 @@ function normalFunction(n){
 
 normalFunction(5)
 */
-/*
-function recursiveFunction(n) {
-  if (n <= 0) {
-    console.log("ok");
-    return;
-  }
-  console.log(n);
-  recursiveFunction(n - 1);
+
+function recursiveFunction(value){
+  if(value <= 0) return 'finished';
+
+  console.log(value);
+  recursiveFunction(value - 1)
 }
-recursiveFunction(4);
+
+recursiveFunction(10)
 
 /*
 function sumRange(n){

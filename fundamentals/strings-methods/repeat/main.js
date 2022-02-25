@@ -1,6 +1,6 @@
 const message2 = 'Bad weather... All departues Delayed...';
 
-console.log(message2.repeat(10));
+console.log(message2.repeat(2));
 
 
 const planesInline = function (n) {
@@ -9,4 +9,4 @@ const planesInline = function (n) {
 
 planesInline(3);
 planesInline(5);
-planesInline(12);
+planesInline(12); 

@@ -17,6 +17,7 @@ const restaurant = {
     nome: 'Classicp Jorge'
 }
 
+//TERNARY OPERATOR
 restaurant.numGuests = null
 // irá verificar se o restaurant.numGuests é false, se for false irá atribuir o 10 para ele
 const guest1 = restaurant.numGuests ? restaurant.numGuests : 10; //o operador '?' não identifica o zero como false
