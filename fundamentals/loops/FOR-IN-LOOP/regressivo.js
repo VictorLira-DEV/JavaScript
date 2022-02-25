@@ -1,12 +1,12 @@
-// var people = [
-//   { name: "victor", idade: "23", sexo: "masculino" },
-//   { name: "amanda", idade: "23", sexo: "feminino" },
-//   { name: "iago", idade: "36", sexo: "mascilino" },
-// ];
+var people = [
+  { name: "victor", idade: "23", sexo: "masculino" },
+  { name: "amanda", idade: "23", sexo: "feminino" },
+  { name: "iago", idade: "36", sexo: "mascilino" },
+];
 
-// for (let pos in people) {
-//   console.log(people[pos].name, people[pos].sexo);
-// }
+for (let pos in people) {
+  console.log(people[pos].name, people[pos].sexo);
+}
 
 //------------------------------------------
 
@@ -28,13 +28,13 @@
 //   console.log(`elemento ${cores[indice]}`);
 // }
 
-const people = [
-  {name:'Victor'},
-  {name:'Iago'},
-  {name:'mim'},
-  {name:'Pedro'}
-]
+// const people = [
+//   {name:'Victor'},
+//   {name:'Iago'},
+//   {name:'mim'},
+//   {name:'Pedro'}
+// ]
 
-for (let i in people) {
-  console.log(people[i].name)
-}
+// for (let i in people) {
+//   console.log(people[i].name)
+// }

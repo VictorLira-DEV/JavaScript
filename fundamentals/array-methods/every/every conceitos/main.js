@@ -18,14 +18,14 @@
 
 //Normal function
 
-// let ages = [21, 21, 21, 21, 21, 21];
+let ages = [21, 21, 21, 21, 21, 21];
 
-// let casa = ages.every(teste);
+let casa = ages.every(teste);
 
-// function teste(item) {
-//   return item < 18;
-// }
+function teste(item) {
+  return item > 18;
+}
 
-// console.log(casa);
+console.log(casa);
 
 //-----------------------------------------------------------------------

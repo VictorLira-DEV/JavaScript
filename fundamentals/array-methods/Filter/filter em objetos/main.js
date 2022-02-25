@@ -13,5 +13,3 @@ const newArray = currentArray.filter((item, index, arr) => {
 })
 
 console.log(newArray)
-
-

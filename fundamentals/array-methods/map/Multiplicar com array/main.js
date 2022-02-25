@@ -1,4 +1,3 @@
-
 //MULTIPLICAR
 /*
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -11,7 +10,6 @@ console.log(multiply)
 console.log(multiply2)
 */
 
-
 //MULTIPLICANDO propriedades em um OBJETOS
 /*
 const produtos = [
@@ -21,11 +19,9 @@ const produtos = [
     {name:'radio', price: 1000, count: 10}
 ]
 
-
 const total = produtos.map((item, index, arr) => {
     return item.price * item.count
 })
-
 
 console.log(produtos)
 console.log(total)

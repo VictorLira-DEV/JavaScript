@@ -44,13 +44,13 @@ const openingHours = {
     },
 };
 
-console.log(openingHours);
+// console.log(openingHours);
 
 
 //THIS IS THE OLD WAY
-if (restaurant.openingHours && restaurant.openingHours.mon) {
-    // console.log(restaurant.openingHours.mon.open);
-};
+// if (restaurant.openingHours && restaurant.openingHours.mon) {
+//     console.log(restaurant.openingHours.mon.open);
+// };
 
 //WITH OPTIONAL CHAINING
 // console.log(restaurant.openingHours.mon?.open);
@@ -60,9 +60,9 @@ if (restaurant.openingHours && restaurant.openingHours.mon) {
 const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
 
 for (const day of days){
-    // console.log(day);
-    // const open = restaurant.openingHours[day]?.open ?? 'closed'
-    // console.log(`On ${day},  we open  at ${open}`)
+    console.log(day);
+    const open = restaurant.openingHours[day]?.open ?? 'closed'
+    console.log(`On ${day},  we open  at ${open}`)
 };
 
 //methods

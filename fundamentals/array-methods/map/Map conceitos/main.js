@@ -33,20 +33,10 @@ console.log(ItemNames)
 // console.log(dobroIdade)
 // console.log(pessoas)
 
-
-const items = [1,2,3,4,5,6,7,8,9,10]
-
+const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const some = items.map((item, index) => {
-    return item 
-})
+  return item + 1;
+});
 
-
-console.log(some)
-
-
-
-
-
-
- 
+console.log(some);

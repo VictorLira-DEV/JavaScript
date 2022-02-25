@@ -6,3 +6,4 @@ console.log(alphabet.slice(1, -2));
 console.log(alphabet.slice(-2));
 console.log(alphabet.slice(-1));
 console.log(alphabet.slice()); //this copy the entire array
+console.log(alphabet)

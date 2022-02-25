@@ -13,23 +13,24 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 //Ascending
 movements.sort((a, b) => {
+    console.log(a + 'a')
     if (a > b) return 1;
     if (a < b) return -1;
 })
 console.log(movements);
 
-//descending
-movements.sort((a, b) => {
-    if (a > b) return -1;
-    if (a < b) return 1;
-})
-console.log(movements);
+// //descending
+// movements.sort((a, b) => {
+//     if (a > b) return -1;
+//     if (a < b) return 1;
+// })
+// console.log(movements);
 
-//modo simplificado
-movements.sort((a, b) => a - b);
-console.log(movements);
+// //modo simplificado
+// movements.sort((a, b) => a - b);
+// console.log(movements);
 
-//ou 
+// //ou 
 
-movements.sort((a, b) => b - a);
-console.log(movements);
+// movements.sort((a, b) => b - a);
+// console.log(movements);

@@ -31,6 +31,8 @@ const account1 = {
   //flat
   const overalBalance = accounts.map(acc => acc.movements);
   const allBalance = overalBalance.flat(1); //esse argumento representa 1 nível de produndidade
+
+  console.log(allBalance)
   const reducedBalance = allBalance.reduce((accumulator, item) => accumulator + item);
   console.log(reducedBalance)
   
