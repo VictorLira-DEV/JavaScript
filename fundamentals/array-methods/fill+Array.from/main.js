@@ -1,25 +1,27 @@
-// // ways of creating arrays
-// const arr = [1, 2, 3, 4, 5, 6, 7];
-// console.log(new Array(1, 2, 3, 4, 5, 6));
+// // //CREATING AN ARRAY FROM THE SCRATCH
+// //array.from
+// // const y = Array.from({ length: 7 }, () => 1);
+// // console.log(y);
 
-// const x = new Array(3);
-// console.log(x)
-// //empty arrays + fill methods
-// x.fill(1);
-// x.fill(1, 3, 5); //it will start after 3, it will end before 5
-// console.log(x);
+// // const z = Array.from({ length: 7 }, (_, i) => i + 1);
+// // console.log(z);
 
-// arr.fill(23, 2, 6);
-// console.log(arr);
+// // const number = Array.from({ length: 10 }, (_, i) => {
+// //   return i + 1;
+// // });
 
-// //CREATING AN ARRAY FROM THE SCRATCH
-//array.from
-const y = Array.from({ length: 7 }, () => 1);
-console.log(y);
 
-const z = Array.from({ length: 7 }, (_, i) => i + 1);
-console.log(z);
+const x = new Array(10); //3 stands for the length
+x.fill(1, 0, 2)
+x.fill(2, 2, 4)
+x.fill(3, 4, 6)
+x.fill(4, 6, 8)
+x.fill(5, 8, 10)
 
-const number = Array.from({ length: 10 }, (_, i) => {
-  return i + 1;
-});
+console.log(x)
+
+//Change a name in the array
+const users =  ['jeferson', 'Cassia', 'Victor', 'Amanda']
+users.fill('Rugal', 2, 3);
+
+console.log(users)

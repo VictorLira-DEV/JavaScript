@@ -13,7 +13,6 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 //Ascending
 movements.sort((a, b) => {
-    console.log(a + 'a')
     if (a > b) return 1;
     if (a < b) return -1;
 })

@@ -3,7 +3,6 @@ const nav = document.querySelector(".menu");
 const handlerOver = function (e) {
     const clicked = e.target;
     const logo = clicked.closest("header").querySelector("img");
-
     if (clicked.classList.contains("nav__link")) {
         const buttonOpenAccount = clicked
             .closest(".menu")
